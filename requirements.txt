@@ -1,0 +1,44 @@
+# BrainPlay: Win or Lose - Python Dependencies
+# Enhanced version with session management and comprehensive logging
+
+# Core async HTTP client for API requests (numbersapi.com)
+aiohttp>=3.8.0
+
+# Async file operations for session data
+aiofiles>=23.0.0
+
+# System and process utilities (for performance monitoring)
+psutil>=5.9.0
+
+# Testing framework
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+# Code coverage for testing
+coverage>=7.0.0
+pytest-cov>=4.0.0
+
+# Type checking (optional but recommended)
+mypy>=1.0.0
+
+# Code formatting (development)
+black>=23.0.0
+
+# Linting (development)
+flake8>=6.0.0
+
+# Documentation generation (optional)
+sphinx>=6.0.0
+
+# UUID generation (built-in, but listed for clarity)
+# uuid - built into Python standard library
+
+# JSON handling (built-in)
+# json - built into Python standard library
+
+# Datetime handling (built-in)
+# datetime - built into Python standard library
+
+# Note: The game is designed to work with Python 3.8+
+# Some features may require Python 3.9+ for optimal performance
+# Session management requires Python 3.8+ for proper dataclass support
